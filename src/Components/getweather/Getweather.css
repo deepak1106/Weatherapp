@@ -1,0 +1,42 @@
+.GetWeather{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 40%;
+    height: 350px;
+    background-color: aqua;
+}
+
+.imageGetWeather{
+    
+    width: 50px;
+    height: 50px;
+    
+}
+.TopBar{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 1%;
+}
+.GridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 10px;
+    
+    background-color: rgb(229, 197, 197);
+
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+}
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    
+    
+}
